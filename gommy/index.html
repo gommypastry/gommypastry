@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devicewidth, initial-scarle=1.0">
+        ><title> pagina web gommy pastry</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    
+    </head>
+
+ 
+    <body>
+     <header class="header" id="inicio">
+         <img src="img/hamburguesa.svg" alt="" class="hamburguesa">
+         <nav class="menu-navegacion">
+             <a href="#inicio">inicio</a>
+             <a href="#servicio">servicio</a>
+             <a href="#galeria">galeria</a>
+             <a href="#contacto">contacto</a>
+             <a href="#pagos">pagos</a>
+         </nav>
+         <div class="contenedor head">
+             <h1 class="titulo"> PRUEBA EL SABOR DE LO DULCE DE LA VIDA </h1>
+             <p class="copy">gommy pastry.</p>
+         </div>
+         <script>
+             function validarPassword(){
+                 texto =prompt("para poder ingresar a la pagina introduzca la contraseña");
+                 while(texto!="123456789"){
+                 alert("password incorrecta");
+                 texto=prompt("para poder ingresar a la pagina introduzca la contraseña");
+                 }
+                 alert("password correcta");
+             }
+         </script>
+       
+     </header>
+     <main>
+       <section class="services contenedor" id="servicio">
+           <h2 class="subtitulos">NUESTRO SERVICIO</h2>
+           <div class="contenedor-servicio">
+               <img src="img/resta.svg" alt="">
+               <div class="checklist-servicio">
+                   <div class="servis">
+                      <h3 class="n-service"><span class="number">1</span>decorados especiales</h3> 
+                      <p>nuestros pasteles pueden ser decorados con cualquiera de nestras coberturas. 
+                          tambien realizamos coberturas personalizadas.
+                      </p>
+                   </div>
+                   <div class="servis">
+                        <h3 class="n-service"><span class="number">2</span>promociones </h3> 
+                        <p>contamos con 15% de descuento apartir de una compra mayor a $700
+                        </p>
+                  </div>
+                     <div class="servis">
+                            <h3 class="n-service"><span class="number">3</span>entregas a domicilio</h3> 
+                            <p> poque gommy pastry cuida la salud de sus clientes las 
+                                entregas a domicilio no cuentan con cargos
+                            </p>
+                    </div>
+                    
+
+               </div>
+
+
+           </div>
+
+       </section>  
+       <section class="galery" id="galeria">
+           <div class="contenedor">
+               <h2 class="subtitulos">GALERIA</h2>
+               <div class="contenedor-galeria">
+                   <img src="img/1.jpg" alt="" class="img-galeria">
+                   <img src="img/2.jpg" alt="" class="img-galeria">
+                   <img src="img/3.jpg" alt="" class="img-galeria">
+                   <img src="img/5.jpg" alt="" class="img-galeria">
+                   <img src="img/cook.jpg" alt="" class="img-galeria">
+                   <img src="img/donas.jpg" alt="" class="img-galeria">
+               </div>
+
+
+           </div>
+       </section>
+      <section class="imegen-light">
+           <img src="img/bx-x.svg" alt="" class="close">
+           <img src="img/8.jpg" alt="" class="agregar-imagen">
+       </section>
+       <section class="contenedor" id="expertos">
+           <h2 class="subtitulos">EXPERTOS EN:</h2>
+           <section class="experts">
+               <div class="cont-expert">
+                   <img src="img/resta.svg" alt="">
+                   <h3 class="n-expert">EVENTOS ESPECIALES</h3>
+               </div>
+               <div class="cont-expert">
+                    <img src="img/order.svg" alt="">
+                    <h3 class="n-expert">ORDENES</h3>
+                </div>
+                <div class="cont-expert">
+                        <img src="img/cake.svg" alt="">
+                        <h3 class="n-expert">POSTRES</h3>
+                    </div>
+
+
+           </section>
+
+       </section>
+     </main>
+    
+     <footer id="contacto">
+         <div class="contenedor footer-cont">
+             <div class="contact-us">
+                 <h2 class="brand">GOMMY PASTRY</h2>
+                 <p>ENDULZAMOS TUS MOMENTOS</p> 
+             </div>
+             <div class="social-media">
+                 <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a> 
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt'></i>
+                   </a>
+             </div>
+         </div>
+         <div class="line"></div>
+
+     </footer>
+
+       <script src="js/menu.js"></script>
+       <script src="js/lightbox.js"></script>
+       <script>validarPassword();</script>
+    </body>
+</html>
